@@ -54,7 +54,7 @@ export default class Header extends React.Component {
                                 </svg>
                             </button>
                             <div className="hamburger__content"{...(_.get(site, 'data.config.hamburger_background_image', null) ? ({style: toStyleObj('background-image: url(\'' + withPrefix(_.get(site, 'data.config.hamburger_background_image', null)) + '\')')}) : null)}>
-                                <div style={{ display: "none" }} className="hamburger__options">
+                                <div className="hamburger__options">
                                     <button className="snipcart-checkout button button--transparent">
                                         <span className="button__icon nav__button-icon">
                                             <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">

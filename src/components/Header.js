@@ -40,6 +40,7 @@ export default class Header extends React.Component {
                             })}
                         </ul>
                         <div className="nav__right" style={{ display: "none" }}>
+                        <div className="nav__right" style={{ display: "none" }}>
                             <button className="snipcart-checkout nav__button button button--transparent">
                                 <span className="button__icon nav__button-icon">
                                     <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">

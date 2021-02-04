@@ -66,6 +66,7 @@ window.addEventListener('resize', function () {
   if (document.querySelector('.hamburger').offsetParent === null) {
     closeHamburgerMenu();
   }
-}, true);*/
+}, true);
+*/
 
 };

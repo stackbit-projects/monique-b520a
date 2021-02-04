@@ -62,10 +62,10 @@ window.removeHamburgerMenuHandlers = function () {
   document.querySelector('.hamburger').removeEventListener('click', menuToggleHandler, false);
 };
 
-window.addEventListener('resize', function () {
-  if (document.querySelector('.hamburger').offsetParent === null) {
-    closeHamburgerMenu();
-  }
-}, true);
+// window.addEventListener('resize', function () {
+//   if (document.querySelector('.hamburger').offsetParent === null) {
+//     closeHamburgerMenu();
+//   }
+// }, true);
 
 };

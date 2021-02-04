@@ -26,7 +26,7 @@ export default class Header extends React.Component {
                                 }
                             </Link>
                         </div>
-                        <ul className="nav__menu" style={{ display: "none"}}>
+                        <ul className="nav__menu" style={{ display: "none" }}>
                             {_.map(_.get(site, 'data.config.main_menu', null), (item, item_idx) => {
                                 let section = _.get(page, 'frontmatter.section', null) || _.get(page, 'frontmatter.title', null);
                                 let isActive = (_.get(item, 'title', null) === section) ? (true) : false;

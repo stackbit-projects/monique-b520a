@@ -15,7 +15,7 @@ fetch(templatesUrl)
       script.src = 'https://cdn.snipcart.com/themes/v3.0.18/default/snipcart.js';
       document.body.appendChild(script);
     });
-/*
+
 // Handle hamburger menu toggle
 function menuToggleHandler() {
   let nav = document.querySelector('.nav');

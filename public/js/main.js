@@ -67,6 +67,6 @@ window.addEventListener('resize', function () {
     closeHamburgerMenu();
   }
 }, true);
-*/
+
 
 };

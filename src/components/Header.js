@@ -53,7 +53,7 @@ export default class Header extends React.Component {
                                     <path d="M0 1c0-0.552 0.448-1 1-1h22c0.552 0 1 0.448 1 1s-0.448 1-1 1h-22c-0.552 0-1-0.448-1-1zM0 8c0-0.552 0.448-1 1-1h12c0.552 0 1 0.448 1 1s-0.448 1-1 1h-12c-0.552 0-1-0.448-1-1zM1 14.001c-0.552 0-1 0.448-1 1s0.448 1 1 1h15c0.552 0 1-0.448 1-1s-0.448-1-1-1h-15z" />
                                 </svg>
                             </button>
-                            <div className="hamburger__content"{...(_.get(site, 'data.config.hamburger_background_image', null) ? ({style: toStyleObj('background-image: url(\'' + withPrefix(_.get(site, 'data.config.hamburger_background_image', null)) + '\')')}) : null)}>
+                            <div  className="hamburger__content"{...(_.get(site, 'data.config.hamburger_background_image', null) ? ({style: toStyleObj('background-image: url(\'' + withPrefix(_.get(site, 'data.config.hamburger_background_image', null)) + '\')')}) : null)}>
                                 <div className="hamburger__options">
                                     <button className="snipcart-checkout button button--transparent">
                                         <span className="button__icon nav__button-icon">

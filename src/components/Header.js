@@ -39,7 +39,7 @@ export default class Header extends React.Component {
                                 </React.Fragment>)
                             })}
                         </ul>
-                        {/*<div className="nav__right">
+                        <div className="nav__right"></div>
                         {/*<div className="nav__right">
                             <button className="snipcart-checkout nav__button button button--transparent">
                                 <span className="button__icon nav__button-icon">

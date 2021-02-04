@@ -39,7 +39,7 @@ export default class Header extends React.Component {
                                 </React.Fragment>)
                             })}
                         </ul>
-                        <div className="nav__right">
+                        /*<div className="nav__right">
                             <button className="snipcart-checkout nav__button button button--transparent">
                                 <span className="button__icon nav__button-icon">
                                     <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg">
